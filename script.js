@@ -119,10 +119,7 @@ const translations = {
     }
 };
 
-// NOTE: there is no `ru` block defined above. Your langSelect dropdown offers
-// a Russian option, but selecting it will currently fall back to Georgian text
-// via the t() function below. Add a real `translations.ru = {...}` block when
-// you have Russian copy ready.
+
 
 const instructionsDataByLang = {
     ka: {
@@ -140,8 +137,27 @@ const instructionsDataByLang = {
             child: "⏰ ჯერ შეასრულე საშინაო დავალება და მერე მთელი საღამო თავისუფალი გაქვს!",
             teen: "📱 გამოიყენე Pomodoro-ს ტექნიკა: 25 წუთი სწავლა, 5 წუთი დასვენება.",
             adult: "💼 გამოიყენეთ ეიზენჰაუერის მატრიცა საქმეების პრიორიტეტიზაციისთვის."
+        },
+
+        laziness: {
+            child: "🏃 დაიწყე მხოლოდ 5 წუთით. როცა დაიწყებ, გაგრძელება ბევრად ადვილია.",
+            teen: "⚡ დიდი დავალება დაყავი პატარა ნაბიჯებად და პირველი ახლავე შეასრულე.",
+            adult: "📈 მოტივაციას ნუ დაელოდები — ჯერ იმოქმედე, მოტივაცია ხშირად მოქმედების შემდეგ ჩნდება."
+        },
+
+        shyness: {
+            child: "😊 ყოველდღე ერთ ახალ ადამიანს გაუღიმე და მიესალმე.",
+            teen: "🤝 ყოველდღე სცადე უცნობთან ერთი მოკლე საუბარი. პატარა ნაბიჯები ზრდის თავდაჯერებას.",
+            adult: "🎯 სოციალური უნარები პრაქტიკით ვითარდება. დაიწყე მოკლე საუბრებით უსაფრთხო გარემოში."
+        },
+
+        lack_of_willpower: {
+            child: "💪 როცა რაღაც რთულია, უთხარი საკუთარ თავს: 'კიდევ ერთხელ ვცდი!'",
+            teen: "🔥 რთული საქმე დაიწყე მხოლოდ 10 წუთით. ხშირად დაწყება ყველაზე რთულია.",
+            adult: "🧠 ნებისყოფა შეზღუდული რესურსია. შექმენი ჩვევები, რომ ნაკლები გადაწყვეტილების მიღება დაგჭირდეს."
         }
     },
+
     en: {
         early_waking: {
             child: "☀️ Little sunbeam! Go to bed at nine so you can wake up with the birds!",
@@ -157,6 +173,24 @@ const instructionsDataByLang = {
             child: "⏰ Finish your homework first, then you'll have the whole evening free!",
             teen: "📱 Use the Pomodoro technique: study for 25 minutes, then rest for 5.",
             adult: "💼 Use the Eisenhower Matrix to sort tasks and avoid burnout."
+        },
+
+        laziness: {
+            child: "🏃 Start with just 5 minutes. Getting started is the hardest part.",
+            teen: "⚡ Break big tasks into small steps and complete the first one now.",
+            adult: "📈 Don't wait for motivation. Action often creates motivation."
+        },
+
+        shyness: {
+            child: "😊 Smile and say hello to one new person every day.",
+            teen: "🤝 Try having one short conversation with someone new each day.",
+            adult: "🎯 Confidence grows through practice. Start with small conversations."
+        },
+
+        lack_of_willpower: {
+            child: "💪 Tell yourself: 'I'll try one more time!' whenever something feels hard.",
+            teen: "🔥 Commit to just 10 minutes. Starting is often the hardest part.",
+            adult: "🧠 Build habits instead of relying only on willpower."
         }
     }
 };
