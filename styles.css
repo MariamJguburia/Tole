@@ -1,3 +1,4 @@
+/* პალიტრის ცვლადები */
 :root {
     --pastel-turquoise: #99c5c4;
     --pastel-smirk: #deece1;
@@ -112,7 +113,7 @@ label {
     font-weight: 600;
 }
 
-select, textarea, input[type="text"], input[type="email"], input[type="date"] {
+select, textarea, input[type="text"] {
     width: 100%;
     padding: 12px;
     border: 2px solid var(--underwater);
@@ -123,7 +124,7 @@ select, textarea, input[type="text"], input[type="email"], input[type="date"] {
     transition: border-color 0.3s;
 }
 
-select:focus, textarea:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus {
+select:focus, textarea:focus, input[type="text"]:focus {
     border-color: var(--waterway);
 }
 
@@ -281,7 +282,7 @@ input:checked + .slider:before {
 }
 
 .badge-private { background-color: #ffeaa7; color: #d63031; }
-.badge-public { background-color: #inherit; border: 1px solid var(--pastel-turquoise); color: var(--barrier-reef); }
+.badge-public { background-color: inherit; border: 1px solid var(--pastel-turquoise); color: var(--barrier-reef); }
 
 .comment-section {
     margin-top: 15px;
@@ -362,53 +363,4 @@ input:checked + .slider:before {
     margin-top: 40px;
     font-size: 14px;
     color: #7f8c8d;
-}
-
-/* --- ახალი დამატებები: ენის სელექტორი, პროფილის ბეჯი, დაბადების თარიღის ლეიბლი --- */
-
-.nav-right {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.lang-select {
-    padding: 6px 10px;
-    border: 2px solid var(--underwater);
-    border-radius: 8px;
-    font-size: 14px;
-    background-color: var(--white);
-    cursor: pointer;
-    width: auto;
-}
-
-.birthdate-label {
-    font-weight: normal;
-    font-size: 13px;
-    color: #7f8c8d;
-    margin-bottom: 6px;
-}
-
-.user-chip {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 14px;
-}
-
-.logout-link {
-    color: var(--danger);
-    font-size: 12px;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.bonus-badge {
-    background-color: #fff3cd;
-    color: #b8860b;
-    padding: 2px 6px;
-    border-radius: 4px;
-    font-size: 11px;
-    font-weight: bold;
-    margin-left: 6px;
 }
